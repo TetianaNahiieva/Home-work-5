@@ -1,0 +1,403 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1;
+}
+
+body {
+  margin: 10px;
+  background-color: #FFF;
+}
+
+.header {
+  padding-top: 23px;
+  margin-bottom: 35px;
+}
+
+.header .container {
+  max-width: 940px;
+  padding: 0 10;
+  margin: 0 auto;
+}
+
+.header .container .nav__menu {
+  -webkit-filter: drop-shadow(0px 4px 4px 4px black);
+          filter: drop-shadow(0px 4px 4px 4px black);
+}
+
+.header .container .nav__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  list-style: none;
+}
+
+.header .container .nav__menu ul > li > a {
+  font-size: 18px;
+  color: #828282;
+}
+
+.header .container .nav__menu ul > li > a:hover {
+  color: #0000FF;
+}
+
+.header .container .nav__menu ul > li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header .container .nav__menu ul > li > li .active {
+  color: #000;
+}
+
+.header .container .nav__menu::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #828282;
+  margin-top: 30px;
+}
+
+.hero {
+  padding-bottom: 100px;
+}
+
+.hero .container {
+  max-width: 945px;
+  padding: 0 10;
+  margin: 0 auto;
+}
+
+.hero .container > h2 {
+  font-size: 47px;
+  font-weight: 700;
+  color: #070707;
+  margin-bottom: 15px;
+}
+
+.hero .container > img {
+  width: 945px;
+  height: 388px;
+}
+
+.about-me {
+  padding: 100px 0;
+  background-color: #F6F6F6;
+}
+
+.about-me .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-me .container > h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-me .container > p {
+  max-width: 480px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #070707;
+}
+
+.about-me .container > p:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.skills {
+  padding: 100px 0;
+  background-color: #FFF;
+}
+
+.skills .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills .container > h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skills .container > p {
+  width: 480px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #070707;
+}
+
+.skills .container .container__skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  list-style: none;
+}
+
+.skills .container .container__skills > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  list-style: none;
+}
+
+.skills .container .container__skills > ul > li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.portfolio {
+  padding: 100px 0;
+  background-color: #F6F6F6;
+}
+
+.portfolio .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio .container > h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.portfolio .container > ul > li > img {
+  width: 937px;
+  height: 522px;
+}
+
+.portfolio .container > ul > li > a {
+  font-size: 10px;
+  color: #828282;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+}
+
+.contacts {
+  padding: 100px 0;
+}
+
+.contacts .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts .container > h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contacts .container > p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contacts .container > button {
+  min-width: 180px;
+  min-height: 42px;
+  background-color: #000;
+  border-radius: 30px;
+  color: #FFF;
+}
+
+.contacts .container > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+  list-style: none;
+}
+
+.contacts .container > ul > li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.contacts .container > p:last-child {
+  color: #828282;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 515px) {
+  .header {
+    padding-top: 10px;
+    margin-bottom: 15px;
+  }
+  .header .container {
+    max-width: 450px;
+  }
+  .header .container .nav__menu {
+    -webkit-filter: drop-shadow(0px 4px 4px 4px black);
+            filter: drop-shadow(0px 4px 4px 4px black);
+  }
+  .header .container .nav__menu ul {
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .container .nav__menu ul > li > a {
+    font-size: 40px;
+    color: #000;
+  }
+  .header .container .nav__menu ul > li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .header .container .nav__menu ul > li > li .active {
+    color: #000;
+  }
+  .header .container .nav__menu::after {
+    margin-top: 15px;
+  }
+  .hero {
+    padding-bottom: 35px;
+  }
+  .hero .container {
+    width: 375px;
+  }
+  .hero .container > h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #070707;
+    margin-bottom: 25px;
+  }
+  .hero .container > img {
+    width: 100%;
+    height: 200px;
+  }
+  .about-me {
+    padding: 30px 0;
+    background-color: #F6F6F6;
+  }
+  .about-me .container > h2 {
+    margin-bottom: 10px;
+  }
+  .about-me .container > p:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .skills {
+    padding: 30px 0;
+  }
+  .skills .container > h2 {
+    margin-bottom: 10px;
+  }
+  .skills .container .container__skills {
+    display: block;
+  }
+  .skills .container .container__skills > ul > li:not(:last-child) {
+    margin-right: 20px;
+  }
+  .portfolio {
+    padding: 30px 0;
+  }
+  .portfolio .container > ul > li > img {
+    width: 100%;
+    height: 200px;
+  }
+  .portfolio .container > ul > li > a {
+    margin: 10px;
+  }
+  .contacts {
+    padding: 30px 0;
+  }
+  .contacts .container > h2 {
+    margin-bottom: 10px;
+  }
+  .contacts .container > p {
+    margin-bottom: 10px;
+  }
+  .contacts .container > ul {
+    margin: 15px;
+  }
+  .contacts .container > ul > li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
